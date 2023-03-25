@@ -6,9 +6,53 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    border: 1px solid #ccc;
+    min-height: 440px;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align:start;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.titleAndContent{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .image{
     position: relative;
     height: 200px;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 1234px) {
+    .cardWrapper {
+      width: 33%;
+    }
+  }
+  @media only screen and (max-width: 890px) {
+    .cardWrapper {
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    .cardWrapper {
+      width: 100%;
+    }
+    .image{
+        height:250px
+    }
+  }
+  @media only screen and (max-width: 471px) {
+    .cardWrapper {
+      width: 100%;
+    }
+    .image{
+        height:200px
+    }
+  }

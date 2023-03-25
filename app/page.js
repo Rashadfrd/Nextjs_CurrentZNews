@@ -1,4 +1,5 @@
 import NewsSection from "@/components/newssection"
+import HomeContainer from "@/containers/home"
 import { articles } from "@/mocks/articles"
 
 // const apiKey = '52fca6be30704b03bc0b0f0cd9555a1c'
@@ -18,7 +19,7 @@ export default function Home() {
       {/* {articles.map((article)=>{
         return <h1>{article.author}</h1>
       })} */}
-      < NewsSection/>
+      <HomeContainer />
     </main>
   )
 }
