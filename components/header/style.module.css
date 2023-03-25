@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+.menu, .bell{
+    border-radius: 50%;
+    transition: .3s;
+    height: 40px;
+    width: 40px;
+}
+.menu:hover, .bell:hover{
+    border: 1px solid rgb(154, 154, 154);
+}
+.subscribe, .signIn{
+    background-color: rgba(22, 109, 252, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .4s;
+}
+.signIn{
+    background-color: black;
+}
+.signIn:hover{
+    background-color: white;
+    color: black;
+}
+.subscribe:hover{
+    background-color: rgb(6, 75, 186);
+}
+.logoAndActions{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.logo{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.singleLogo{
+    border-bottom: 2px solid rgba(22, 109, 252, 1);
+}
+.buttons{
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,11 @@
+.navLink{
+    padding: 5px 10px;
+}
+
+.navLink:hover{
+    border-bottom: 1px solid black;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
